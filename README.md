@@ -1,4 +1,12 @@
-# UML课程大作业
+# UML课程大作业 I Want Books
+
+## 下载源代码
+
+```
+# 进入准备存放源代码的目录
+git clone https://github.com/chris-void/iwantbooks
+```
+
 
 ## 使用部署
 
@@ -12,9 +20,14 @@
 
 ## 小组信息
 
-小组ID： 335778403
-队长： 徐豪   
-组员： 孙舒文 11331282      
-       邱黎媛 
-       张鹏
-       吴冰云
+小组ID：   335778403
+队长： 徐 豪   11331339
+组员： 孙舒文  11331282      
+       邱黎媛  11331263
+       张鹏    11331390
+       吴冰云  11331310
+
+
+All rights reserved.
+
+If there is any trouble or bug, please contact chris-void[at]outlook.com, thank you for using our software!
