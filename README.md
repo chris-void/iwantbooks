@@ -2,7 +2,7 @@
 
 ## 下载源代码
 
-```
+```shell
 # 进入准备存放源代码的目录
 git clone https://github.com/chris-void/iwantbooks
 ```
@@ -20,12 +20,12 @@ git clone https://github.com/chris-void/iwantbooks
 
 ## 小组信息
 
-小组ID：   335778403
-队长： 徐 豪   11331339
-组员： 孙舒文  11331282      
-       邱黎媛  11331263
-       张鹏    11331390
-       吴冰云  11331310
+小组ID：   335778403     
+队长： 徐 豪   11331339     
+组员： 孙舒文  11331282         
+       邱黎媛  11331263    
+       张鹏    11331390     
+       吴冰云  11331310    
 
 
 All rights reserved.
