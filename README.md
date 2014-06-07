@@ -2,7 +2,7 @@
 
 ## 下载源代码
 
-```shell
+```python
 # 进入准备存放源代码的目录
 git clone https://github.com/chris-void/iwantbooks
 ```
@@ -30,4 +30,4 @@ git clone https://github.com/chris-void/iwantbooks
 
 All rights reserved.
 
-If there is any trouble or bug, please contact chris-void[at]outlook.com, thank you for using our software!
+If there is any trouble or bug, please contact **chris-void[at]outlook.com**, thank you for using our software!
