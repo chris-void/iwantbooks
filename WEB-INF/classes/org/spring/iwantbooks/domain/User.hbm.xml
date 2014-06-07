@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="GBK"?>
+<!-- 指定Hibernate映射文件的DTD信息 -->
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Hibernate映射文件的根元素 -->
+<hibernate-mapping package="org.spring.iwantbooks.domain">
+	<class name="User" table="user_table"
+		discriminator-value="1">
+		<!-- 使用只读缓存 -->
+		<cache usage="read-only"/>
+		<!-- 映射标识属性 -->
+		<id	name="id" type="integer" column="user_id">
+			<!-- 指定使用identity主键生成策略 -->
+			<generator class="identity"/>
+		</id>
+		<discriminator column="user_type" type="int"/>
+		<!-- 映射普通属性 -->
+		<property name="name" column="user_name"	type="string"
+			not-null="true" length="30" unique="true"/>
+		<property name="pass" column="user_pass"	type="string"
+			not-null="true" length="16"/>
+		<property name="mail" column="user_mail" type="string"
+		    length="30"/>
+		<property name="phone" column="user_phone" type="string"
+		    length="20"/>
+		<property name="qq" column="user_qq" type="string"
+		    length="15"/>
+
+		<!-- 映射和Manager的关联关系 -->
+		<subclass name="Manager" discriminator-value="2">
+			<!-- 映射Manager的普通属性 -->
+			
+		</subclass>
+		
+	</class>
+</hibernate-mapping>
